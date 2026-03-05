@@ -10,9 +10,9 @@ import { registrar_actividad } from "./operaciones/index.js";
 
 
 // solicitamos al usuario que ingrese el nombre y la fecha de la actividad
-const nombre = vaca("ingrese el nombre de la actividad por favor : ")
+const nombre = vaca("ingrese el nombre de la actividad por favor : ");
 
-const fecha = vaca("ingrese la fecha de la actividad por favor :")
+const fecha = vaca("ingrese la fecha de la actividad por favor :");
 
 // creamos un objeto actividad con los datos ingresados por el usuario 
 const actividad = {nombre, fecha}
