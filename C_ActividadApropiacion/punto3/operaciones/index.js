@@ -1,0 +1,1 @@
+export { registrar_actividad } from './try_catch_para_validar.js'
