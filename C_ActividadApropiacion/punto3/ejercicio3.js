@@ -17,4 +17,4 @@ const fecha = vaca("ingrese la fecha de la actividad por favor :")
 // creamos un objeto actividad con los datos ingresados por el usuario 
 const actividad = {nombre, fecha}
 // llamamos ala funcion registrar_actividad pasando el objeto actividad como argumento para validar los datos y registrar la actividad.
-registrar_actividad(actividad)
+registrar_actividad(actividad);
