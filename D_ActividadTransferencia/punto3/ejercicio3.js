@@ -39,6 +39,7 @@ function procesarcompra() {
         {nombre: nombreproducto2, precio: precioproducto2},
         {nombre: nombreproducto3, precio: precioproducto3}
     ]
+    // validacion del try-catch
     const esValido = validar_con_try_catch(cliente, productos);
     if (!esValido) return null; 
     const { primerproducto } = usar_destructuracion(productos);
