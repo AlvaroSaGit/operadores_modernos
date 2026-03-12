@@ -1,0 +1,1 @@
+export {agregarInventario} from "./agregarInventario.js";
