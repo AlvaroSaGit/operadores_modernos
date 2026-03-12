@@ -13,4 +13,5 @@ console.log("la configuracion perzonalizadas es : " + "tema: " + perzonalizadas.
 const configuracionfinal = usando_spread(defaults,perzonalizadas);
 // utilizamos la función usando_destructuracion para extraer el valor de idioma de la configuración final 
 // imprimimos el idioma 
+const idioma = usando_destructuracion(configuracionfinal);
 console.log("el idioma es : " + idioma);
